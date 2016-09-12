@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">MoBan</string>
-
+    <string name="welcome">立即进入</string>
 </resources>
