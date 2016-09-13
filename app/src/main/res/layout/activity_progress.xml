@@ -20,4 +20,13 @@
         android:layout_margin="30dp"
         android:max="100"
         android:progress="70"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="申请"
+        android:onClick="submit"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        />
 </LinearLayout>

@@ -100,7 +100,7 @@ public class WelcomeGuideActivity extends Activity implements View.OnClickListen
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_welcome_guide:
-                startActivity(new Intent(WelcomeGuideActivity.this,ProgressActivity.class));
+                startActivity(new Intent(WelcomeGuideActivity.this,PermissionActivity.class));
                 this.finish();
                 break;
         }
