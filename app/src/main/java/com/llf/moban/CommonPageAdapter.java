@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 import java.util.List;
 
 /**
- * Created by Administrator on 2016/9/12.
+ * Created by llf on 2016/9/12.
  */
 public class CommonPageAdapter extends PagerAdapter{
     private List<View> list;

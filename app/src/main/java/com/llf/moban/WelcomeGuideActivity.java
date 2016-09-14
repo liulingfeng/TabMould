@@ -9,6 +9,8 @@ import android.view.ViewTreeObserver;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+
+import com.llf.moban.cardviewpage.CardViewPageActivity;
 import com.llf.moban.tools.DensityUtil;
 import java.util.ArrayList;
 import java.util.List;
@@ -100,7 +102,7 @@ public class WelcomeGuideActivity extends Activity implements View.OnClickListen
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_welcome_guide:
-                startActivity(new Intent(WelcomeGuideActivity.this,PermissionActivity.class));
+                startActivity(new Intent(WelcomeGuideActivity.this,CardViewPageActivity.class));
                 this.finish();
                 break;
         }

@@ -17,4 +17,8 @@
         </item>
         <item name="android:progressDrawable">@drawable/shape_progressbar_mini</item>
     </style>
+
+    <style name="ButtonStyle" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+    </style>
 </resources>
